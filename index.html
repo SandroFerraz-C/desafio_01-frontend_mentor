@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content=" Blog, Blogr, Frontend-Mentor-Blogr">
+    <meta name="description" content="Desafio do Frontend Mentor">
+    <meta name="author" content="Sandro Ferraz">
+    <title>Frontend Mentor | [Blogr]</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,300;1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <header>
+
+        <section class="header">
+
+            <!--start Navbar-Mobile-->
+            <div class="mobile">
+                <nav class="navbar navbar-expand-lg navbar-dark ">
+
+                    <a class="navbar-brand" href="#">Blogr</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+
+                        <ul class="navbar-nav">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Product
+                </a>
+
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                    <a class="dropdown-item" href="#">Action</a>
+                                    <a class="dropdown-item" href="#">Another action</a>
+                                    <a class="dropdown-item " href="#">Something else here</a>
+                                </div>
+                            </li>
+
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Company
+                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                    <a class="dropdown-item" href="#">Action</a>
+                                    <a class="dropdown-item" href="#">Another action</a>
+                                    <a class="dropdown-item" href="#">Something else here</a>
+                                </div>
+                            </li>
+
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Conect
+                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                    <a class="dropdown-item" href="#">Contact</a>
+                                    <a class="dropdown-item" href="#">Newslaster</a>
+                                    <a class="dropdown-item" href="#">Linkedin</a>
+                                </div>
+                            </li>
+                        </ul>
+                        <hr />
+                        <nav class="navbar navbar-dark ">
+
+                            <form class="form-inline ">
+                                <button class="btn btn-sm btn-outline-secondary " type="button ">Login</button>
+                                <button id="outro-button" class="btn btn-sm btn-outline-secondary " type="button ">Sign Up</button>
+
+                            </form>
+                        </nav>
+                    </div>
+                </nav>
+            </div>
+            <!--End Mobile-->
+
+            <!--start Navbar Desktop-->
+            <nav class="desktop">
+                <a class="navbar-brand " href="# ">Blogr</a>
+
+                <div class="dropdown ">
+
+                    <button onclick="myFunction() " class="dropbtn ">Product</button>
+                    <div id="myDropdown " class="dropdown-content ">
+                        <a href="# ">Contact</a>
+                        <a href="# ">Newslaster</a>
+                        <a href="# ">Linkedin</a>
+                    </div>
+
+                    <button onclick="myFunction() " class="dropbtn ">Company</button>
+                    <div id="myDropdown " class="dropdown-content ">
+                        <a href="# ">acao</a>
+                        <a href="# ">Another action</a>
+                        <a href="# ">Something else here</a>
+                    </div>
+
+                    <button onclick="myFunction() " class="dropbtn ">Conect</button>
+                    <div id="myDropdown " class="dropdown-content ">
+
+                        <a href="# ">Contact</a>
+                        <a href="# ">Newslaster</a>
+                        <a href="# ">Linkedin</a>
+
+                    </div>
+                </div>
+
+                <div class="div-header ">
+
+                    <nav class="top-header ">
+                        <a href="# ">Sign Up</a>
+                    </nav>
+
+                    <nav class="top-header ">
+                        <a href="# ">Login</a>
+                    </nav>
+
+                </div>
+
+            </nav>
+            <!--End Navbar Desktop-->
+
+            <!--## (Start) Middle part of head-->
+            <section class="middle-section-header ">
+                <div>
+                    <h1>A modem publishing platform</h1>
+
+                    <p>Grow your audience andbuild your online brand</p>
+                </div>
+            </section>
+            <!--## (End) Middle part of head-->
+
+
+            <!--## (Start) Final part of the header-->
+            <div class="bottom-section ">
+                <nav>
+
+                    <a href="# " class="bottom-section-start ">Start for Free</a href="# ">
+          <a href="# " class="bottom-section-learn ">Learn More</a href="# ">
+
+        </nav>
+      </div>
+      <!--## (End) Final part of the header-->
+    </section>
+
+  </header>
+
+  <!--## (Start) middle of the page-->
+  <main>
+    <article>
+
+      <section class="top-section ">
+        <h2>Designed for the future</h2>
+
+        <img class="image-top-section " src="../images/illustration-editor-desktop.svg " alt=" ">
+
+        <div class="top-section-text ">
+
+          <h3>Introducing an extensible editor</h3>
+
+          <p>Praesent malesuada urna nisi, quis volutpat erat hendrerit non. Nam vulputate dapibus. Per aumento de
+            cachacis, eu reclamis. Nullam volutpat risus nec leo commodo, ut interdum diam laoreet. Sed non consequat
+            odio. Mais vale um bebadis conhecidiss, que um alcoolatra anonimis.</p>
+
+          <h3>Roust content management</h3>
+
+          <p>Viva Forevis aptent taciti sociosqu ad litora torquent. Delegadis gente finis, bibendum egestas augue arcu
+            ut est. A ordem dos tratores não altera o pão duris.</p>
+        </div>
+
+      </section>
+
+    </article>
+
+    <article>
+      <section class="middle-section ">
+        <img class="image-middle-section " src="../images/illustration-phones.svg " alt=" ">
+
+        <div class="middle-section-text ">
+          <h3>State the Art infrastructure</h3>
+
+          <p>Não sou faixa preta cumpadi, sou preto inteiris, inteiris. Si u mundo tá muito paradis? Toma um mé que o
+            bebadis
+            mundo vai girarzis! Diuretics paradis num copo é motivis de denguis.bebadis
+            Praesent malesuada urna nisi, quis volutpat erat hendrerit non. Nam vulputate dapibus. Per aumento de
+            cachacis, eu reclamis. Mais vale um bebadis conhecidiss, que um alcoolatra anonimis.</p>
+
+        </div>
+      </section>
+    </article>
+
+    <section class="footer-section-text ">
+      <img src="../images/illustration-laptop-desktop.svg " alt=" ">
+      <div class="footer-section-text-1 ">
+        <h3>Free, open, simple</h3>
+        <p>Não sou faixa preta cumpadi, sou preto inteiris, inteiris. Si u mundo tá muito paradis? Toma um mé que o
+          mundo vai girarzis! Diuretics paradis num copo é motivis de denguis. Copo furadis é disculpa de bebadis, arcu
+          quam euismod magna.
+          Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis. Paisis, filhis, espiritis santis.
+          Cevadis im ampola pa arma uma pindureta. Viva Forevis aptent taciti sociosqu ad litora torquent.</p>
+      </div>
+
+      <div class="footer-section-text-2 ">
+        <h3>Powerful tooling</h3>
+        <p> Si u mundo tá muito paradis? Toma um mé que o mundo vai girarzis! Diuretics paradis num copo é motivis de
+          denguis.Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis. Paisis, filhis, espiritis
+          santis.</p>
+      </div>
+    </section>
+  </main>
+  <!--## (End) middle of the page-->
+
+  <!--## (Estart) Footer of the page-->
+  <footer>
+    <h5>Blogr</h5>
+
+    <div>
+      <h4>Product</h4>
+      <nav>
+        <ul>
+          <li>
+            <a href="#">Overview</a>
+                    </li>
+                    <li><a href="#">Pricing</a></li>
+                    <li><a href="#">Marketplace</a></li>
+                    <li><a href="#">Features</a></li>
+                    <li><a href="#">Integrations</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div>
+                <h4>Company</h4>
+                <nav>
+
+                    <ul>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Team</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Careers</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div>
+                <h4>Connect</h4>
+                <nav>
+
+                    <ul>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Newslaster</a></li>
+                        <li><a href="#">Linkedin</a></li>
+                    </ul>
+                </nav>
+            </div>
+            </footer>
+            <!--## (Estart) Footer of the page-->
+
+            <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js " integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN " crossorigin="anonymous "></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js " integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q " crossorigin="anonymous "></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js " integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl " crossorigin="anonymous "></script>
+
+            <script>
+                function myFunction() {
+                    document.getElementById("myDropdown ").classList.toggle("show ");
+                }
+
+                // Close the dropdown menu if the user clicks outside of it
+                window.onclick = function(event) {
+                    if (!event.target.matches('.dropbtn')) {
+                        var dropdowns = document.getElementsByClassName("dropdown-content ");
+                        var i;
+                        for (i = 0; i < dropdowns.length; i++) {
+                            var openDropdown = dropdowns[i];
+                            if (openDropdown.classList.contains('show')) {
+                                openDropdown.classList.remove('show');
+                            }
+                        }
+                    }
+                }
+            </script>
+
+
+</body>
+
+</html>
